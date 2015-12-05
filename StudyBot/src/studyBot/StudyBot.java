@@ -16,11 +16,13 @@ public class StudyBot {
 		TelegramMsg msg;
 		while(true){
 			while((msg = bot.nextMsg(10)) == null){}
-			while(!bot.sendText("Hi, my name is @StudyBot! I'm working to "
-					+ "improve my skills in order to enrich your student group "
-					+ "chat more. Have you got any idea about what I could do? "
-					+ "Send it to @jorgesanz. He will be thankful! :-)",
-					msg.getChat())){}
+			if (msg.getText().contains("@StudyBot")) {
+				while(!bot.sendText("Hi,+my+name+is+@StudyBot!+I'm+working+to+"
+						+ "improve+my+skills+in+order+to+enrich+your+student+group+"
+						+ "chat+more.+Have+you+got+any+idea+about+what+I+could+do?+"
+						+ "Send+it+to+@jorgesanz.+He+will+be+thankful!+:-)",
+						msg.getChat())){}
+			}
 		}
 	}
 }
