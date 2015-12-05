@@ -6,6 +6,10 @@ public class StudyBot {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*
+		 *  You need to create a Apikey class with a String attribute
+		 *  call apiKey and a method getApiKey()
+		 */
 		ApiKey botKey = new ApiKey();
 		TelegramBot bot = new TelegramBot(botKey.getApiKey());
 		while(!bot.throwMessages()){}
