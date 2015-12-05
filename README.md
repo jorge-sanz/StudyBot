@@ -1,2 +1,2 @@
 # StudyBot
-A Telegram bot for student group chats.
+A Telegram bot to enrich student group chats.
