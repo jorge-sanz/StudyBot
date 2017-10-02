@@ -3,10 +3,10 @@ A Telegram bot to enrich student group chats using [TelegramBotAPI](https://gith
 
 Think about your group chat of college/school friends in which you talk about studies, next exams, homework, schedule... In with you send notes, files or whatever... In which you try to sync your studying sessions to help each others.
 
-## Local Development
+## Development
 [TODO]
 
-## Production Deployment
+## Deployment
 [TODO]
 
 ## Built With
